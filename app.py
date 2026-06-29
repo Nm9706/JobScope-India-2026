@@ -35,13 +35,13 @@ h2, h3 {
 
 /* Metric value */
 [data-testid="stMetricValue"] {
-    color: black !important;
+    color: white !important;
     font-weight: bold;
 }
 
 /* Metric label */
 [data-testid="stMetricLabel"] {
-    color: black !important;
+    color: white !important;
 }
 
 </style>
