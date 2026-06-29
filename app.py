@@ -33,13 +33,15 @@ h2, h3 {
     color: #1F4E79;
 }
 
-[data-testid="stMetric"] {
-    background-color: #F5F7FA;
-    border: 1px solid #E6E6E6;
-    border-radius: 12px;
-    padding: 15px;
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.08);
-    text-align: center;
+/* Metric value */
+[data-testid="stMetricValue"] {
+    color: black !important;
+    font-weight: bold;
+}
+
+/* Metric label */
+[data-testid="stMetricLabel"] {
+    color: black !important;
 }
 
 </style>
