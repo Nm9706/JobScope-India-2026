@@ -33,15 +33,24 @@ h2, h3 {
     color: #1F4E79;
 }
 
+/* KPI Card */
+[data-testid="stMetric"] {
+    background-color: var(--secondary-background-color);
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.08);
+}
+
 /* Metric value */
 [data-testid="stMetricValue"] {
-    color: white !important;
+    color: inherit !important;
     font-weight: bold;
 }
 
 /* Metric label */
 [data-testid="stMetricLabel"] {
-    color: white !important;
+    color: inherit !important;
 }
 
 </style>
